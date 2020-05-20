@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
  * Based on code below we can determine it has 0(N) complexity.
  * This is because the for loop one line 16 is the worst case scenario
@@ -8,6 +10,9 @@
 public class mystery1 {
 
 	public static void main(String[] args) {
+		int[] intArray = new int[] { 6, 9, 62, 56, 15, 9, 10 };
+		mystery1(intArray);
+		System.out.println(Arrays.toString(intArray));
 
 	}
 
